@@ -1,0 +1,17 @@
+{
+  "name": "Truco Criollo",
+  "short_name": "Truco",
+  "description": "Truco argentino mano a mano, a 30, sin flor. Con amigos, torneos y desafíos.",
+  "lang": "es-AR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#3b2414",
+  "theme_color": "#3b2414",
+  "icons": [
+    { "src": "img/icono-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "img/icono-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "img/icono-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
