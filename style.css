@@ -321,3 +321,14 @@ table.tabla{width:100%;border-collapse:collapse;font-size:15px;color:#3a2208}
 .rec-marca{color:#2e6b8a;font-weight:400}
 .filtro{margin:4px 0 2px}
 .filtro .campo{font-size:15px;padding:8px 10px 8px 38px}
+/* botón Instalar la app */
+.instalar{appearance:none;display:flex;align-items:center;gap:10px;width:100%;text-align:left;cursor:pointer;margin-top:2px;
+  border:2px solid #2e6b8a;border-radius:12px;background:#eaf5fb;color:#1f4a60;font:inherit;font-size:17px;padding:8px 10px}
+.instalar small{display:block;font-size:12px;color:#3d6f86}
+.instalar .inst-ico{width:28px;height:28px;flex:0 0 auto;color:#2e6b8a}
+.instalar .inst-ico svg{width:100%;height:100%}
+.pasos{list-style:none;padding:0;margin:4px 0;display:flex;flex-direction:column;gap:12px;text-align:left;counter-reset:paso}
+.pasos li{display:flex;align-items:center;gap:12px;font-size:16px;color:#3a2208;counter-increment:paso}
+.pasos li::before{content:counter(paso);flex:0 0 26px;height:26px;border-radius:50%;background:#e2a72e;color:#3a2208;display:grid;place-items:center;font-size:15px}
+.paso-ico{flex:0 0 34px;height:34px;border-radius:9px;background:#fff;border:1.5px solid #c9a96a;display:grid;place-items:center}
+.paso-ico svg{width:22px;height:22px}
