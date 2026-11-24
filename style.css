@@ -332,3 +332,5 @@ table.tabla{width:100%;border-collapse:collapse;font-size:15px;color:#3a2208}
 .pasos li::before{content:counter(paso);flex:0 0 26px;height:26px;border-radius:50%;background:#e2a72e;color:#3a2208;display:grid;place-items:center;font-size:15px}
 .paso-ico{flex:0 0 34px;height:34px;border-radius:9px;background:#fff;border:1.5px solid #c9a96a;display:grid;place-items:center}
 .paso-ico svg{width:22px;height:22px}
+.info-home{position:absolute;top:calc(10px + env(safe-area-inset-top,0px));right:62px;z-index:5}
+.info-home svg{width:22px;height:22px}
