@@ -334,3 +334,10 @@ table.tabla{width:100%;border-collapse:collapse;font-size:15px;color:#3a2208}
 .paso-ico svg{width:22px;height:22px}
 .info-home{position:absolute;top:calc(10px + env(safe-area-inset-top,0px));right:62px;z-index:5}
 .info-home svg{width:22px;height:22px}
+/* código de recuperación */
+.campo.codigo-rec{letter-spacing:3px;text-transform:uppercase;font-size:20px}
+.codigo-caja{display:flex;flex-direction:column;align-items:center;gap:2px;background:#fff;border:2px dashed #b48a4a;border-radius:12px;padding:10px;margin:4px 0}
+.codigo-caja span{font-size:30px;letter-spacing:4px;color:#3a2208;user-select:all;-webkit-user-select:all}
+.codigo-caja small{font-size:12px;color:#8a6a4a}
+a.wbtn{text-decoration:none;display:flex;align-items:center;justify-content:center}
+.saludo > span:last-child{display:flex;gap:4px}
